@@ -17,3 +17,6 @@ if __name__ == "__main__":
 
     lists()
     print("\n")
+
+    tuples()
+    print("\n")
