@@ -1,6 +1,9 @@
 from data_types import data_types
 from loops import loops
 from lists import lists
+from tuples import tuples
+from lists import lists
+from dictionary import dictionary
 
 def main():
     print("Hello, World!")
@@ -19,4 +22,7 @@ if __name__ == "__main__":
     print("\n")
 
     tuples()
+    print("\n")
+    
+    dictionary()
     print("\n")
