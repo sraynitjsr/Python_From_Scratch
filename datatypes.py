@@ -1,4 +1,4 @@
-def data_types():
+def datatypes():
     # Integer
     num_int = 42
     print("Integer Example:", num_int)
