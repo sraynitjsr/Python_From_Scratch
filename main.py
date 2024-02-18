@@ -4,6 +4,7 @@ from lists import lists
 from tuples import tuples
 from lists import lists
 from dictionary import dictionary
+from sets import sets
 
 def main():
     print("Hello, World!")
@@ -25,4 +26,7 @@ if __name__ == "__main__":
     print("\n")
     
     dictionary()
+    print("\n")
+
+    sets()
     print("\n")
