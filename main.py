@@ -1,4 +1,4 @@
-from data_types import data_types
+from datatypes import datatypes
 from loops import loops
 from lists import lists
 from tuples import tuples
@@ -12,7 +12,7 @@ if __name__ == "__main__":
     main()
     print("\n")
     
-    data_types()
+    datatypes()
     print("\n")
 
     loops()
