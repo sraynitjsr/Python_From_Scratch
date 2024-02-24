@@ -8,6 +8,7 @@ from sets import sets
 from maps import maps
 from complex_operations import complex_operations
 from frozenset_operations import frozenset_operations
+from regex import regex
 
 def main():
     print("Hello, World!")
@@ -41,4 +42,7 @@ if __name__ == "__main__":
     print("\n")
 
     frozenset_operations()
+    print("\n")
+
+    regex()
     print("\n")
