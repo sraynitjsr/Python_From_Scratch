@@ -1,8 +1,14 @@
+class CustomDivisionError(Exception):
+    def __init__(self, message):
+        super().__init__(message)
+
 def divide_numbers(x, y):
     try:
+        if y == 0:
+            raise CustomDivisionError("Error: Division by zero!")
         result = x / y
-    except ZeroDivisionError:
-        print("Error: Division by zero!")
+    except CustomDivisionError as e:
+        print(e)
     except TypeError:
         print("Error: Invalid operand types!")
     else:
